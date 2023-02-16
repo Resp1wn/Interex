@@ -809,6 +809,67 @@ section {
     }
 }
 
+
+@media (max-width:768px) {
+
+    .oferta-vlen .oferta .ofertah3 h3{
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .oferta-vlen .oferta .playbtn {
+        position: relative;
+        margin: 1rem;
+        left: 40%;
+        top: -100px;
+        display: inline-block;
+        padding: 1rem 2rem;
+        font-size: 1.7rem;
+        border-radius: 32.5rem;
+        border: .2rem solid var(--orange);
+        color: #fff;
+        cursor: pointer;
+        background: var(--orange);
+    }
+
+    .workapp .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        padding-bottom: -5px;
+        background: #fff;
+        outline: var(--outline);
+        outline-offset: -5px;
+        text-align: center;
+        box-shadow: var(--box-shadow);
+        border-radius: 2.5rem;
+    }
+
+
+    .workapp .container .workimg img{
+        width: 408px;
+        height: 300px;
+        object-fit: cover;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .workapp .container .apliko .aplikobtn{
+        position: relative;
+        bottom: 5px;
+    }
+
+
+}
+
+
+
+
+
+
 @media (max-width:450px) {
 
     html {
@@ -874,4 +935,98 @@ section {
     }
 
 
+}
+/* iphone xr */
+@media (max-width:414px) {
+
+    .workapp .container .workimg img{
+        width: 372px;
+        height: 300px;
+        object-fit: cover;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+}
+
+
+/* samsung s20 ultra */
+@media (max-width:412px) {
+
+    .workapp .container .workimg img{
+        width: 370px;
+        height: 300px;
+        object-fit: cover;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+}
+/* iphone 12 */
+@media (max-width:412px) {
+
+    .workapp .container .workimg img{
+        width: 370px;
+        height: 300px;
+        object-fit: cover;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+}
+
+/* Pixel 5 */
+@media (max-width:393px) {
+
+    .workapp .container .workimg img{
+        width: 351px;
+        height: 300px;
+        object-fit: cover;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+}
+
+
+/* iphone se */
+@media (max-width:375px) {
+
+    .workapp .container .workimg img{
+        width: 333px;
+        height: 300px;
+        object-fit: cover;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+}
+
+/* samsung s8 */
+@media (max-width:360px) {
+    .workapp .container .workimg img{
+        width: 320px;
+        height: 300px;
+        object-fit: cover;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+    }
+}
+
+/* samsung fold */
+@media (max-width:280px) {
+    .workapp .container .workimg img{
+        width: 237px;
+        height: 300px;
+        object-fit: cover;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+    }
 }
